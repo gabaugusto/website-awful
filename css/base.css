@@ -1,0 +1,150 @@
+.header {
+
+}
+
+/* ------------------------------------------------------------------*/
+/* Page Elements ----------------------------------------------------*/
+h1.titleHero, .nLogo {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+h1.titleHero {
+    display: none;
+}
+
+.nLogo {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 104;
+    top: 25%;
+}
+
+    .nLogo * {
+        font-size: 22px;
+    }
+
+    .nLogo p {
+        font-size: 56px;
+        padding: 1% 0;
+        text-align: center;
+        border-radius: 0;
+        border: 1px solid #FFF;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        width: 30%;
+        max-width: 400px;
+        color: #FFF;
+        text-shadow: 0px 3px 5px rgba(0,0,0,0.45);
+        margin: 0 auto;
+        display: block;
+        background: rgba(255,255,255,0.3);
+    }
+
+#logo {
+    font-family: 'Open Sans', sans-serif;
+    color: #ED7127;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 75px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-shadow: rgba(155,155,155,0.6) 3px 2px 0;
+    position: relative;
+}
+
+.hero, .square01, .square02, .square03, .square04 {
+    position: relative;
+    width: 100%;
+}
+
+.square01, .square03 {
+    display: flex;
+}
+
+.hero, .square02, .square04 {
+    display: block;
+}
+
+.hero {
+    max-height: 1000px;
+    height: 100vh;
+    background: url(../images/backgroundMeuAcordo.jpg) center top no-repeat;
+}
+
+.video-container{
+    overflow: hidden;
+	height: 100vh;
+}
+
+.wrapSubtitleHero{
+    position: absolute;
+    display: inline-block;
+    height: 130px;    
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    z-index: 105;   
+}
+
+.subtitleHero {
+    position: relative;
+    display: inline-block;
+    /* width: 60%; */
+    max-width: 600px;
+    text-align: center;
+    top: 40%;
+    font-size: 23px;
+    line-height: 1.7;
+    height: 90px;
+    font-weight: 300;
+    color: rgba(255, 255, 255,1) !important;
+    text-shadow: 1px 2px 2px rgba(55,55,55,.6);
+    z-index: 106;
+}
+
+.subtitle {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin: 15px 0 5px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.3;
+    color:#d89581;    
+}
+
+.video-cover{
+    position: absolute;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    z-index: 51;
+    background: rgba(85,140,140,0.6);
+}
+
+
+.wrapButtonsHero {
+	position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 20vh;
+    margin: 0;
+    padding: 0;
+    z-index: 200;
+}
+
+.wrapButtonsHero button {
+	background:transparent;
+	border:1px solid #FFF;
+	
+}
