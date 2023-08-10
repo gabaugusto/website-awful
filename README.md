@@ -12,7 +12,7 @@ Do you feel confortable?
 
 Do you know what to do first? 
 
-Are you able to read anything?
+Are you able to absorb anything?
 
 The colors mean anything for you?
 
