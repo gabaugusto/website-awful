@@ -1,6 +1,4 @@
-# A Bad Experience
-
-README - Worst Page in the World
+# A Bad Experience Or The Worst Page in the World
 
 Welcome to the Worst Page in the World!
 
